@@ -1,0 +1,196 @@
+/* Importar as fontes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5; /* Fundo principal */
+    color: #263238; /* Texto principal - Cinza Escuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalhos */
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #FF6F00; /* Laranja Escuro para os títulos */
+}
+
+/* Navbar */
+.navbar-dark {
+    background-color: #263238; /* Fundo do cabeçalho - Cinza Escuro */
+}
+
+#logo {
+    border: solid 2px gray;
+}
+
+.navbar-brand img {
+        max-height: 70px; /* Altura máxima do logo no cabeçalho */
+    }
+    
+    .navbar-nav .nav-link {
+        color: #FFFFFF; /* Branco para os links do menu */
+        font-weight: 500;
+        margin-right: 15px;
+    }
+    
+    .navbar-nav .nav-link:hover {
+        color: #FFAB40; /* Laranja Claro para o hover dos links do menu */
+    }
+    
+    .navbar-nav .btn-primary {
+        background-color: #FF6F00; /* Botão principal - Laranja Escuro */
+        border: none;
+        color: #FFFFFF;
+        padding: 10px 20px;
+        margin-left: 15px;
+    }
+    
+    .navbar-nav .btn-primary:hover {
+        background-color: #FFAB40; /* Laranja Claro para o hover do botão */
+    }
+    
+    /* Hero Section */
+    .hero {
+        background-color: #263238; /* Fundo da seção hero - Cinza Escuro */
+        color: #FFFFFF; /* Branco para o texto */
+        padding: 100px 0;
+        text-align: center;
+    }
+    
+    .hero .btn {
+        background-color: #FF6F00; /* Botão principal na hero - Laranja Escuro */
+        border: none;
+        color: #FFFFFF;
+        padding: 10px 30px;
+        font-size: 18px;
+    }
+    
+    .hero .btn:hover {
+        background-color: #FFAB40; /* Laranja Claro para o hover do botão */
+    }
+    
+    .col-md-4 {
+        margin-bottom: 5rem;
+    }
+    /* Seções */
+    .section-title {
+        color: #FF6F00; /* Laranja Escuro para o título das seções */
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    #services .card {
+        border: none;
+        background-color: #FFFFFF; /* Branco para o fundo das cartas */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+    
+    #services .card:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    
+    #services .card .fa {
+        color: #FF6F00; /* Ícones laranja escuro */
+        margin-bottom: 15px;
+    }
+    
+    #services .card-title {
+        color: #263238; /* Cinza Escuro para o título da carta */
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    }
+    
+    #services .card-text {
+        color: #757575; /* Cinza médio para o texto da carta */
+    }
+    
+    /* Blog Section */
+    #blog .card {
+        border: none;
+        background-color: #FFFFFF; /* Branco para o fundo das cartas do blog */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+    
+    #blog .card:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    
+    #blog .card-title {
+        color: #263238; /* Cinza Escuro para o título do blog */
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    }
+    
+    #blog .card-text {
+        color: #757575; /* Cinza médio para o texto do blog */
+    }
+    
+    /* Contato Section */
+    #contact h5 {
+        color: #263238; /* Cinza Escuro para os títulos de contato */
+    }
+    
+    #contact p {
+        color: #757575; /* Cinza médio para o texto de contato */
+    }
+    
+    #contact .form-control {
+        border-radius: 0;
+        border-color: #263238; /* Cinza Escuro para as bordas dos campos de formulário */
+    }
+    
+    #contact .form-control:focus {
+        border-color: #FF6F00; /* Laranja Escuro para o foco nos campos */
+        box-shadow: none;
+    }
+    
+    #contact .btn-primary {
+        background-color: #FF6F00; /* Botão principal no formulário de contato */
+        border: none;
+        color: #FFFFFF;
+    }
+    
+    #contact .btn-primary:hover {
+        background-color: #FFAB40; /* Laranja Claro no hover do botão */
+    }
+    
+    /* Footer */
+    footer {
+        background-color: #263238; /* Fundo do rodapé - Cinza Escuro */
+        color: #FFFFFF; /* Branco para o texto do rodapé */
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    footer p {
+        margin: 0;
+        color: #FFFFFF;
+    }
+    
+    footer a {
+        color: #FFFFFF; /* Branco para os links no rodapé */
+        text-decoration: none;
+    }
+
+   footer a:hover {
+        color: #00ACC1; /* Azul Turquesa para o hover dos links no rodapé */
+    }
+    
+    footer .fab {
+        color: #00ACC1; /* Azul Turquesa para o ícone do WhatsApp */
+    }
+    
+    /* Botões */
+    .btn-primary {
+        background-color: #FF6F00; /* Botão principal */
+        border: none;
+        color: #FFFFFF;
+    }
+    
+    .btn-primary:hover {
+        background-color: #FFAB40; /* Laranja Claro no hover */
+    }
+    
