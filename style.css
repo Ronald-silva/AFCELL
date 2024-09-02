@@ -21,7 +21,8 @@ h1, h2, h3 {
 }
 
 #logo {
-    border: solid 2px gray;
+    border: solid 2px white;
+    border-radius: 50%;
 }
 
 .navbar-brand img {
@@ -50,6 +51,19 @@ h1, h2, h3 {
         background-color: #FFAB40; /* Laranja Claro para o hover do botão */
     }
     
+    .video {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+    
+    }
+
+    video {
+        border-radius: 10px;
+
+    }
     /* Hero Section */
     .hero {
         background-color: #263238; /* Fundo da seção hero - Cinza Escuro */
@@ -157,6 +171,15 @@ h1, h2, h3 {
         background-color: #FFAB40; /* Laranja Claro no hover do botão */
     }
     
+    #zap {
+        text-decoration: none;
+        color:#757575
+    }
+
+    #zap:hover {
+        color:black;
+    }
+
     /* Footer */
     footer {
         background-color: #263238; /* Fundo do rodapé - Cinza Escuro */
