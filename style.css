@@ -56,12 +56,15 @@ h1, h2, h3 {
         justify-content: center;
         text-align: center;
         align-items: center;
+        
 
     
     }
 
     video {
         border-radius: 10px;
+        width: 70%;
+        height: 50%;
 
     }
     /* Hero Section */
